@@ -1,0 +1,14 @@
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\bin\Debug\netcoreapp2.1\MtWebApi.deps.json
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\bin\Debug\netcoreapp2.1\MtWebApi.runtimeconfig.json
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\bin\Debug\netcoreapp2.1\MtWebApi.runtimeconfig.dev.json
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\bin\Debug\netcoreapp2.1\MtWebApi.dll
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.csprojAssemblyReference.cache
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.RazorAssemblyInfo.cache
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.RazorAssemblyInfo.cs
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.AssemblyInfoInputs.cache
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.AssemblyInfo.cs
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\bin\Debug\netcoreapp2.1\MtWebApi.pdb
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.dll
+C:\Users\Nurullah Karakoca\Desktop\MtWebApi\MtWebApi\obj\Debug\netcoreapp2.1\MtWebApi.pdb
