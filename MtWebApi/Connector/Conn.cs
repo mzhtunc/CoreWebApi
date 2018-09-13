@@ -60,5 +60,60 @@ namespace MtWebApi.Connector
 
             return allUser;
         }
+
+        public List<Customer> CustomerList()
+        {
+            {
+
+                List<Customer> allCustomer = new List<Customer>();
+
+
+                using (MySqlConnection connMysql = new MySqlConnection(connstring))
+                {
+
+                    using (MySqlCommand cmdd = connMysql.CreateCommand())
+                    {
+
+
+                        cmdd.CommandText = "select id,account_title,adress,account_type,contact_person,ispersonel from customer "; //Dönmesini istediğimiz veriler için Sql sorgumuzu buraya yazıyoruz.
+                        cmdd.CommandType = System.Data.CommandType.Text;
+
+                        cmdd.Connection = connMysql;
+
+                        connMysql.Open();
+
+                        using (MySqlDataReader reader = cmdd.ExecuteReader())
+                        {
+
+                            while (reader.Read())
+                            {
+                                allCustomer.Add(new Customer
+                                {
+                                    id = reader.GetInt32(reader.GetOrdinal("id")) 
+                                                                             ,                                                                            
+                                    account_title = reader.GetString(reader.GetOrdinal("account_title")) 
+                                                                             ,
+                                    adress = reader.GetString(reader.GetOrdinal("adress")) 
+                                                                             ,
+                                    account_type = reader.GetString(reader.GetOrdinal("account_type")) 
+                                                                             ,
+                                    contact_person = reader.GetString(reader.GetOrdinal("account_type"))
+                                                                              ,
+                                    ispersonel = Convert.ToSByte(reader.GetOrdinal("ispersonel"))
+
+                                });
+                            }
+                        }
+                    }
+
+                    connMysql.Close();
+                }
+
+
+
+                return allCustomer;
+            }
+        }
+
     }
 }
